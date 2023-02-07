@@ -300,7 +300,10 @@ void robot_90_right_turn()
   motor_control_r(-1, 150);
   motor_control_l(1, 150);
   
-  delay(660); // 90도를 돌 때까지 시간 조정
+  delay(65
+  
+  
+  0); // 90도를 돌 때까지 시간 조정
   
   motor_control_r(1, 0);
   motor_control_l(1, 0);
